@@ -1,7 +1,7 @@
 {
-  "name": "markdown_dom",
+  "name": "markdown_to_array",
   "version": "0.0.1-0",
-  "description": "\t\tlet file = `${process.env.HOME}/Desktop/test.docx`;",
+  "description": "Convert markdown text to a simplified DOM array.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"

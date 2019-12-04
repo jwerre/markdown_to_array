@@ -1,7 +1,7 @@
-const MdDom = require('./index.js');
+const MdToArray = require('./index.js');
 const assert = require('assert');
 
-describe('MdDom', function() {
+describe('MdToArray', function() {
 
 	// before(function(done) {});
 	// after( function (done) {});
@@ -17,7 +17,7 @@ Here are some **images**: ![some alt text](https://example.com/img1.png)
 	
 ![](https://example.com/img2.png)`;
 
-		const mdDom = new MdDom(md);
+		const mdDom = new MdToArray(md);
 
 		assert.equal(mdDom.markdown, md);
 		assert.ok(/^<p>.+/.test(mdDom.html));
@@ -119,7 +119,7 @@ Here are some lists:
 
 `;
 
-		const mdDom = new MdDom(md);
+		const mdDom = new MdToArray(md);
 
 		assert.equal(mdDom.markdown, md);
 		let parsed;

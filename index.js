@@ -3,7 +3,7 @@ const HTMLParser = require('node-html-parser');
 const marked = require('marked');
 
 
-class MdDom {
+class MdToArray {
 	
 	constructor(md) {
 		
@@ -13,7 +13,9 @@ class MdDom {
 		
 	}
 	
-	get markdown () { return this._md; }
+	get markdown () { 
+		return this._md;
+	}
 
 	get html () { 
 
@@ -121,4 +123,4 @@ class MdDom {
 
 }
 
-module.exports = MdDom;
+module.exports = MdToArray;

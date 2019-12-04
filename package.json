@@ -14,8 +14,6 @@
   "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
   "license": "ISC",
   "dependencies": {
-    "domhandler": "^3.0.0",
-    "htmlparser2": "^4.0.0",
     "marked": "^0.7.0",
     "node-html-parser": "^1.1.16"
   }

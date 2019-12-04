@@ -1,18 +1,18 @@
-# Markdown DOM
+# Markdown to Array
 
 Convert markdown text to a simplified DOM array. 
 
 ### Install
 
 ```bash
-npm install --save markdown_dom
+npm install --save markdown_to_array
 ```
 
 ### Example
 
 ```js
 
-MdDom = require('markdown_dom')
+MdToArray = require('markdown_to_array')
 const md = `\
 This is *italics* and this is **bold**.
 
@@ -22,10 +22,14 @@ Here are some **images**: ![some alt text](https://example.com/img1.png)
 
 ![](https://example.com/img2.png)`;
 
-const mdDom = new MdDom(md);
+const mdDom = new MdToArray(md);
 const parsed = mdDom.parse();
 console.log(parsed);
-/*
+```
+
+#### Result:
+```js
+
 [
 	[
 		{

@@ -1,6 +1,6 @@
 {
   "name": "markdown_to_array",
-  "version": "0.0.1-1",
+  "version": "1.0.0",
   "description": "Convert markdown text to a simplified DOM array.",
   "main": "index.js",
   "scripts": {

@@ -94,6 +94,5 @@ console.log(parsed);
 		}
 	]
 ]
-*/
 
 ```

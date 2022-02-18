@@ -1,7 +1,7 @@
 const MdToArray = require('./index.js');
 const assert = require('assert');
 
-describe('MdToArray', function() {
+describe('Markdown to array', function() {
 
 	// before(function(done) {});
 	// after( function (done) {});

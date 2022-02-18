@@ -1,6 +1,6 @@
 
 const HTMLParser = require('node-html-parser');
-const marked = require('marked');
+const {marked} = require('marked');
 
 
 class MdToArray {

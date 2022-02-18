@@ -1,20 +1,20 @@
 {
-  "name": "markdown_to_array",
-  "version": "1.0.0",
-  "description": "Convert markdown text to a simplified DOM array.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
-  "keywords": [
-    "markdown",
-    "dom",
-    "tree"
-  ],
-  "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
-  "license": "ISC",
-  "dependencies": {
-    "marked": "^4.0.12",
-    "node-html-parser": "^1.1.16"
-  }
+    "name": "markdown_to_array",
+    "version": "1.0.1",
+    "description": "Convert markdown text to a simplified DOM array.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test"
+    },
+    "keywords": [
+        "markdown",
+        "dom",
+        "tree"
+    ],
+    "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
+    "license": "ISC",
+    "dependencies": {
+        "marked": "^4.0.12",
+        "node-html-parser": "^1.1.16"
+    }
 }

@@ -1,21 +1,27 @@
 {
     "name": "@jwerre/markdown_to_array",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Convert markdown text to a simplified DOM array. Previously markdown_to_html",
     "main": "index.js",
+    "dependencies": {
+        "marked": "^4.0.12",
+        "node-html-parser": "^1.1.20"
+    },
+    "devDependencies": {},
     "scripts": {
         "test": "mocha test"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jwerre/markdown_to_array.git"
+    },
     "keywords": [
-        "markdown",
-        "dom",
-        "tree",
-        "markdown_to_html"
+        "markdown"
     ],
-    "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
-    "license": "ISC",
-    "dependencies": {
-        "marked": "^4.0.12",
-        "node-html-parser": "^1.1.16"
-    }
+    "author": "dom",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jwerre/markdown_to_array/issues"
+    },
+    "homepage": "https://github.com/jwerre/markdown_to_array#readme"
 }

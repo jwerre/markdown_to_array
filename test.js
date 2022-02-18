@@ -6,6 +6,28 @@ describe('Markdown to array', function() {
 	// before(function(done) {});
 	// after( function (done) {});
 
+	it('should convert markdown to array', function() {
+
+		const md = `\
+This is *italics* and this is **bold**.
+
+- list item 1
+- list item 2
+- list item 3
+
+Here is a [hyperlink](https://example.com)!
+
+Here are some **images**: ![some alt text](https://example.com/img1.png)
+
+![](https://example.com/img2.png)`;
+
+		const mdDom = new MdToArray(md);
+		const parsed = mdDom.parse();
+		console.log(parsed);
+
+
+	});
+
 	it('should parse some inline markdown', function() {
 
 		const md = `\

@@ -1,7 +1,7 @@
 {
-    "name": "markdown_to_array",
-    "version": "1.0.1",
-    "description": "Convert markdown text to a simplified DOM array.",
+    "name": "@jwerre/markdown_to_array",
+    "version": "1.0.2",
+    "description": "Convert markdown text to a simplified DOM array. Previously markdown_to_html",
     "main": "index.js",
     "scripts": {
         "test": "mocha test"
@@ -9,7 +9,8 @@
     "keywords": [
         "markdown",
         "dom",
-        "tree"
+        "tree",
+        "markdown_to_html"
     ],
     "author": "Jonah Werre <jonah@surveyplanet.com> (https://surveyplanet.com)",
     "license": "ISC",

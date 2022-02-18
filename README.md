@@ -37,67 +37,45 @@ console.log(parsed);
 ```js
 [
   [
-    { text: 'This is ' },
-    { text: 'italics', tag: 'em', italics: true },
-    { text: ' and this is ' },
-    { text: 'bold', tag: 'strong', bold: true },
-    { text: '.' }
+    { text: 'This is ', tag: 'P', P: true },
+    { text: 'italics', tag: 'EM', EM: true },
+    { text: ' and this is ', tag: 'P', P: true },
+    { text: 'bold', tag: 'STRONG', STRONG: true },
+    { text: '.', tag: 'P', P: true }
   ],
   [
-    {
-      text: 'list item 1',
-      tag: 'li',
-      li: true,
-      parent: 'ul',
-      ordered: false,
-      unordered: true
-    },
-    {
-      text: 'list item 2',
-      tag: 'li',
-      li: true,
-      parent: 'ul',
-      ordered: false,
-      unordered: true
-    },
-    {
-      text: 'list item 3',
-      tag: 'li',
-      li: true,
-      parent: 'ul',
-      ordered: false,
-      unordered: true
-    }
+    { text: 'list item 1', tag: 'LI', LI: true },
+    { text: 'list item 2', tag: 'LI', LI: true },
+    { text: 'list item 3', tag: 'LI', LI: true }
   ],
   [
-    { text: 'Here is a ' },
+    { text: 'Here is a ', tag: 'P', P: true },
     {
       text: 'hyperlink',
-      tag: 'a',
-      href: 'https://example.com',
-      link: true
+      tag: 'A',
+      A: true,
+      href: 'https://example.com'
     },
-    { text: '!' }
+    { text: '!', tag: 'P', P: true }
   ],
   [
-    { text: 'Here are some ' },
-    { text: 'images', tag: 'strong', bold: true },
-    { text: ': ' },
+    { text: 'Here are some ', tag: 'P', P: true },
+    { text: 'images', tag: 'STRONG', STRONG: true },
+    { text: ': ', tag: 'P', P: true },
     {
-      tag: 'img',
+      tag: 'IMG',
+      IMG: true,
       src: 'https://example.com/img1.png',
-      alt: 'some alt text',
-      image: true
+      alt: 'some alt text'
     }
   ],
   [
     {
-      tag: 'img',
+      tag: 'IMG',
+      IMG: true,
       src: 'https://example.com/img2.png',
-      alt: '',
-      image: true
+      alt: ''
     }
   ]
 ]
-
 ```
